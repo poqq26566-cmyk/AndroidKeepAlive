@@ -27,9 +27,20 @@
 
 ## **演示录屏**
 
-| 三星 S21 Android 13       | 小米 11 Android 12             | Google Pixel 6 Pro Android 12 | 禁止卸载效果 |
-| ------------------------- | ------------------------------ | ----------------------------- | ----------------------------- |
-| ![](./GIF/sanxing.gif)   | ![](./GIF/xiaomi.gif)         | ![](./GIF/google.gif)        |![](./uninstall.png)        |
+<table>
+  <tr>
+    <th>三星 S21<br>Android 13</th>
+    <th>小米 11<br>Android 12</th>
+    <th>Google Pixel 6 Pro<br>Android 12</th>
+    <th>禁止卸载效果</th>
+  </tr>
+  <tr>
+    <td><img src="./GIF/sanxing.gif" width="220"></td>
+    <td><img src="./GIF/xiaomi.gif" width="220"></td>
+    <td><img src="./GIF/google.gif" width="220"></td>
+    <td><img src="./uninstall.png" width="220"></td>
+  </tr>
+</table>
 
 ## 使用要求
 

@@ -54,7 +54,7 @@
 
 > 邮箱：fgkeepalive@gmail.com
 > 
-> telegram(需要科学上网)：https://t.me/androidkeepalivee
+> telegram(需要科学上网)：https://t.me/androidkeepalive
 
 ## 更新日志
 

@@ -22,16 +22,10 @@ jobs:
     - name: 设置Android SDK
       uses: android-actions/setup-android@v3
 
-    - name: 安装NDK
-      run: |
-        echo "y" | sdkmanager --install "ndk;25.2.9519653"
-        echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/25.2.9519653" >> $GITHUB_ENV
-
     - name: 编译APK
       run: |
-       gradle wrapper
-       chmod +x gradlew
-       ./gradlew assembleDebug
+        chmod +x gradlew
+        ./gradlew assembleDebug --info
 
     - name: 上传APK
       uses: actions/upload-artifact@v4

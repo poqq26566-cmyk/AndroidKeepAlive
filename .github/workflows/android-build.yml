@@ -22,10 +22,10 @@ jobs:
     - name: 设置Android SDK
       uses: android-actions/setup-android@v3
 
-    - name: 编译APK
+    - name: 使用Gradle直接编译（不依赖gradlew）
       run: |
-        chmod +x gradlew
-        ./gradlew assembleDebug --info
+        # 直接用系统gradle编译
+        gradle build
 
     - name: 上传APK
       uses: actions/upload-artifact@v4
